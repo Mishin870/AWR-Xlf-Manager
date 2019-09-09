@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+  <file source-language="en-US">
+    <body>
+      <trans-unit id="Codeunit 1467306997 - NamedType 2164111355">
+        <source>Cant upload file</source>
+        <target>Не удаётся загрузить файл</target>
+      </trans-unit>
+      <trans-unit id="Codeunit 1467306997 - NamedType 3119137330">
+        <source>File name doesnt ends with .g.xlf</source>
+        <target>Имя файла не заканчивается .g.xlf</target>
+      </trans-unit>
+      <trans-unit id="Codeunit 227533125 - NamedType 1363287824">
+        <source>Error processing GET request! GET: %1</source>
+        <target>Ошибка обработки GET запроса! Запрос: %1</target>
+      </trans-unit>
+      <trans-unit id="Codeunit 227533125 - NamedType 3630303236">
+        <source>Error: not success HTTP status code: %1, response text: %2, GET: %3</source>
+        <target>Ошибка: не положительный код ответа HTTP: %1, текст ответа: %2, запрос: %3</target>
+      </trans-unit>
+      <trans-unit id="Codeunit 2575481221 - NamedType 2683996630">
+        <source>Error processing POST request! POST: %1</source>
+        <target>Ошибка обработки POST запроса! Запрос: %1</target>
+      </trans-unit>
+      <trans-unit id="Codeunit 2575481221 - NamedType 3630303236">
+        <source>Error: not success HTTP status code: %1, response text: %2, POST: %3</source>
+        <target>Ошибка: не положительный код ответа HTTP: %1, текст ответа: %2, запрос: %3</target>
+      </trans-unit>
+      <trans-unit id="Enum 2883660770 - EnumValue 1541658731 - Property 2879900210">
+        <source>Azure</source>
+        <target>Azure</target>
+      </trans-unit>
+      <trans-unit id="Enum 2883660770 - EnumValue 2406592985 - Property 2879900210">
+        <source>Debug Translator</source>
+        <target>Отладочный переводчик</target>
+      </trans-unit>
+      <trans-unit id="Enum 2883660770 - EnumValue 3347625057 - Property 2879900210">
+        <source>Yandex</source>
+        <target>Яндекс</target>
+      </trans-unit>
+      <trans-unit id="Page 1345203401 - Property 2879900210">
+        <source>XLF Languages</source>
+        <target>XLF Языки</target>
+      </trans-unit>
+      <trans-unit id="Page 3081588514 - Property 2879900210">
+        <source>XLF Translations</source>
+        <target>XLF Переводы</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 2102236503 - Property 2879900210">
+        <source>Translate (Untranslated)</source>
+        <target>Перевод (не переведённое)</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 2410215357 - Property 2879900210">
+        <source>Translations</source>
+        <target>Переводы</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 292972594 - Property 2879900210">
+        <source>Export XLF</source>
+        <target>Экспортировать XLF</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 3002780882 - Property 2879900210">
+        <source>Translate (From file, Overwrite)</source>
+        <target>Перевод (из файла с перезаписью)</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 3535105396 - Property 2879900210">
+        <source>Import XLF (Clear)</source>
+        <target>Импорт XLF (с чистого листа)</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 3939523444 - Property 2879900210">
+        <source>Import XLF (Merge)</source>
+        <target>Импорт XLF (слияние)</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 3963959616 - Property 2879900210">
+        <source>Translate (ALL)</source>
+        <target>Перевод (всё)</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Action 908471317 - Property 2879900210">
+        <source>Options</source>
+        <target>Настройки</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Control 2138801989 - Property 2879900210">
+        <source>Target language</source>
+        <target>Целевой язык</target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Control 3270666864 - Property 2879900210">
+        <source>Base file name</source>
+        <target>Базовое имя файла </target>
+      </trans-unit>
+      <trans-unit id="Page 50454423 - Property 2879900210">
+        <source>XLF Tools</source>
+        <target>XLF инструменты</target>
+      </trans-unit>
+      <trans-unit id="Page 851464241 - Property 2879900210">
+        <source>XLF Translate Options</source>
+        <target>Настройки XLF перевода</target>
+      </trans-unit>
+      <trans-unit id="Table 1345203401 - Field 1506912832 - Property 2879900210">
+        <source>Lang type</source>
+        <target>Тип языка</target>
+      </trans-unit>
+      <trans-unit id="Table 1345203401 - Field 627143216 - Property 2879900210">
+        <source>Lang</source>
+        <target>Язык</target>
+      </trans-unit>
+      <trans-unit id="Table 1345203401 - Property 2879900210">
+        <source>XLF Languages</source>
+        <target>XLF языки</target>
+      </trans-unit>
+      <trans-unit id="Table 3081588514 - Field 1125457875 - Property 2879900210">
+        <source>Target</source>
+        <target>Перевод</target>
+      </trans-unit>
+      <trans-unit id="Table 3081588514 - Field 2397723431 - Property 2879900210">
+        <source>Source</source>
+        <target>Исходный текст</target>
+      </trans-unit>
+      <trans-unit id="Table 3081588514 - Field 3641927271 - Property 2879900210">
+        <source>ID</source>
+        <target>Идентификатор</target>
+      </trans-unit>
+      <trans-unit id="Table 3081588514 - Property 2879900210">
+        <source>XLF Translations</source>
+        <target>XLF переводы</target>
+      </trans-unit>
+      <trans-unit id="Table 851464241 - Field 2883660770 - Property 2879900210">
+        <source>Translation Service</source>
+        <target>Сервис перевода</target>
+      </trans-unit>
+      <trans-unit id="Table 851464241 - Field 3256426316 - Property 2879900210">
+        <source>Yandex API Key</source>
+        <target>Yandex API ключ</target>
+      </trans-unit>
+      <trans-unit id="Table 851464241 - Field 3641927271 - Property 2879900210">
+        <source>ID (Ignored)</source>
+        <target>Идентификатор (игнорируется)</target>
+      </trans-unit>
+      <trans-unit id="Table 851464241 - Field 3928301090 - Property 2879900210">
+        <source>Azure API Key</source>
+        <target>Azure API ключ</target>
+      </trans-unit>
+      <trans-unit id="Table 851464241 - Property 2879900210">
+        <source>XLF Translate Options</source>
+        <target>Настройки XLF перевода</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
+<!--Переведено сервисом «Яндекс.Переводчик»: http://translate.yandex.ru/-->

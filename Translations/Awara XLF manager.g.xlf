@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Awara XLF manager">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3081588514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translations - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Field 2397723431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translations - Field Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Field 1125457875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translations - Field Target - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3081588514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Translations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Translate Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translate_Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID (Ignored)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translate_Options - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 2883660770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translation Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translate_Options - Field Translation Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 3256426316 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yandex API Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translate_Options - Field Yandex API Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 3928301090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure API Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Translate_Options - Field Azure API Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 851464241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Translate Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Translate_Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1345203401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Languages</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Languages - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1345203401 - Field 627143216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lang</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Languages - Field Lang - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1345203401 - Field 1506912832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lang type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table AWR_XLF_Languages - Field Lang Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1345203401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Languages</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Languages - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1467306997 - NamedType 3119137330" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File name doesnt ends with .g.xlf</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Actions - NamedType IncorrectSource_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1467306997 - NamedType 2164111355" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cant upload file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Actions - NamedType CantUpload_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 227533125 - NamedType 1363287824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error processing GET request! GET: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Common - NamedType CantGet_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 227533125 - NamedType 3630303236" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: not success HTTP status code: %1, response text: %2, GET: %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Common - NamedType NotSuccessStatus_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2575481221 - NamedType 2683996630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error processing POST request! POST: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Translation_Azure - NamedType CantPost_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2575481221 - NamedType 3630303236" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error: not success HTTP status code: %1, response text: %2, POST: %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Translation_Azure - NamedType NotSuccessStatus_Err</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XLF Tools</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Control 2138801989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target language</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Control Target language - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Control 3270666864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base file name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Control Base file name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3535105396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import XLF (Clear)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action ImportSource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3939523444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import XLF (Merge)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action ImportSourceMerge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 2102236503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translate (Untranslated)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action TranslateTo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3002780882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translate (From file, Overwrite)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action TranslateFromFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3963959616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translate (ALL)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action TranslateToAll - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 292972594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export XLF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action ExportAs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 908471317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action OptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 2410215357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Translations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action TranslationsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2883660770 - EnumValue 2406592985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug Translator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Translation Service - EnumValue Debug Translator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2883660770 - EnumValue 3347625057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yandex</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Translation Service - EnumValue Yandex - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2883660770 - EnumValue 1541658731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Azure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Translation Service - EnumValue Azure - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

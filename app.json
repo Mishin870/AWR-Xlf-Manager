@@ -1,0 +1,28 @@
+{
+  "id": "c7542dad-1e5e-4e47-ae4a-5bf0e07b6ae4",
+  "name": "Awara XLF manager",
+  "publisher": "Awara IT Solutions LLC",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "https://awara-it.com/ru/privacy-policy/",
+  "EULA": "https://awara-it.com/license-agreement/",
+  "help": "",
+  "url": "",
+  "logo": "logo.jpg",
+  "dependencies": [
+  ],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "features": ["TranslationFile"],
+  "idRanges": [
+    {
+      "from": 70097806,
+      "to": 70097811
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AwaraXLFmanager.com/help/",
+  "showMyCode": true,
+  "runtime": "3.0"
+}

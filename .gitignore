@@ -1,0 +1,26 @@
+# Created by https://www.gitignore.io/api/al,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=al,visualstudiocode
+
+### AL ###
+#Template for AL projects for Dynamics 365 BC
+#launch.json folder
+.vscode/
+#Symbols folder
+.alpackages/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.gitignore.io/api/al,visualstudiocode
+
+*.app
+
+.gitold/*
