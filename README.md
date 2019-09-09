@@ -2,7 +2,7 @@
 Xlf translation extension for Microsoft Dynamics 365 Business Central
 
 ## Documentation
-[Can be found here](Docs/Documentation.html)
+[Can be found here](Docs/Documentation.pdf)
 [Tutorial video](https://www.youtube.com/watch?v=yspxM4VcFOk)
 
 ## Screenshots
