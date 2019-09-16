@@ -170,12 +170,15 @@ codeunit 70097806 "AWR_XLF_Actions"
         xmlDoc: XmlDocument;
         xliffNode: XmlElement;
         fileNode: XmlElement;
+        groupNode: XmlElement;
         bodyNode: XmlElement;
         transUnitNode: XmlElement;
         sourceNode: XmlElement;
         targetNode: XmlElement;
 
         translatorComment: XmlComment;
+
+        nameSpace: Text;
 
         commentText: Text;
         service: Enum "Translation Service";
@@ -197,32 +200,40 @@ codeunit 70097806 "AWR_XLF_Actions"
 
         xmlDoc := XmlDocument.Create();
 
-        xliffNode := XmlElement.Create('xliff');
-        fileNode := XmlElement.Create('file');
-        bodyNode := XmlElement.Create('body');
+        nameSpace := 'urn:oasis:names:tc:xliff:document:1.2';
+
+        xliffNode := XmlElement.Create('xliff', nameSpace);
+        fileNode := XmlElement.Create('file', nameSpace);
+        groupNode := XmlElement.Create('group', nameSpace);
+        bodyNode := XmlElement.Create('body', nameSpace);
+
+        groupNode.SetAttribute('id', 'body');
 
         if translation.FindFirst() then
             REPEAT
-                transUnitNode := XmlElement.Create('trans-unit');
+                transUnitNode := XmlElement.Create('trans-unit', nameSpace);
 
-                sourceNode := XmlElement.Create('source');
+                sourceNode := XmlElement.Create('source', nameSpace);
                 sourceNode.Add(translation.Source);
 
-                targetNode := XmlElement.Create('target');
+                targetNode := XmlElement.Create('target', nameSpace);
                 targetNode.Add(translation.Target);
 
                 transUnitNode.Add(sourceNode);
                 transUnitNode.Add(targetNode);
 
                 transUnitNode.SetAttribute('id', translation.ID);
-                bodyNode.Add(transUnitNode);
+                transUnitNode.SetAttribute('translate', 'yes');
+                groupNode.Add(transUnitNode);
             UNTIL translation.Next() = 0;
 
+        bodyNode.Add(groupNode);
+
         fileNode.SetAttribute('source-language', 'en-US');
+        fileNode.SetAttribute('target-language', language.Lang);
         fileNode.Add(bodyNode);
 
         xliffNode.SetAttribute('version', '1.2');
-        // xliffNode.SetAttribute('xmlns', 'urn:oasis:names:tc:xliff:document:1.2');
         xliffNode.Add(fileNode);
 
         xmlDoc.Add(xliffNode);
