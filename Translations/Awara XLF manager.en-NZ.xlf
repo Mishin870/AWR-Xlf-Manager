@@ -1,147 +1,149 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xliff version="1.2">
-  <file source-language="en-US">
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="en-NZ">
     <body>
-      <trans-unit id="Codeunit 1467306997 - NamedType 2164111355">
-        <source>Cant upload file</source>
-        <target>Cant upload file</target>
-      </trans-unit>
-      <trans-unit id="Codeunit 1467306997 - NamedType 3119137330">
-        <source>File name doesnt ends with .g.xlf</source>
-        <target>File name doesnt ends with .g.xlf</target>
-      </trans-unit>
-      <trans-unit id="Codeunit 227533125 - NamedType 1363287824">
-        <source>Error processing GET request! GET: %1</source>
-        <target>Error processing GET request! GET: %1</target>
-      </trans-unit>
-      <trans-unit id="Codeunit 227533125 - NamedType 3630303236">
-        <source>Error: not success HTTP status code: %1, response text: %2, GET: %3</source>
-        <target>Error: not success HTTP status code: %1, response text: %2, GET: %3</target>
-      </trans-unit>
-      <trans-unit id="Codeunit 2575481221 - NamedType 2683996630">
-        <source>Error processing POST request! POST: %1</source>
-        <target>Error processing POST request! POST: %1</target>
-      </trans-unit>
-      <trans-unit id="Codeunit 2575481221 - NamedType 3630303236">
-        <source>Error: not success HTTP status code: %1, response text: %2, POST: %3</source>
-        <target>Error: not success HTTP status code: %1, response text: %2, POST: %3</target>
-      </trans-unit>
-      <trans-unit id="Enum 2883660770 - EnumValue 1541658731 - Property 2879900210">
-        <source>Azure</source>
-        <target>Azure</target>
-      </trans-unit>
-      <trans-unit id="Enum 2883660770 - EnumValue 2406592985 - Property 2879900210">
-        <source>Debug Translator</source>
-        <target>Debug Translator</target>
-      </trans-unit>
-      <trans-unit id="Enum 2883660770 - EnumValue 3347625057 - Property 2879900210">
-        <source>Yandex</source>
-        <target>Yandex</target>
-      </trans-unit>
-      <trans-unit id="Page 1345203401 - Property 2879900210">
-        <source>XLF Languages</source>
-        <target>XLF Languages</target>
-      </trans-unit>
-      <trans-unit id="Page 3081588514 - Property 2879900210">
-        <source>XLF Translations</source>
-        <target>XLF Translations</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 2102236503 - Property 2879900210">
-        <source>Translate (Untranslated)</source>
-        <target>Translate (Untranslated)</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 2410215357 - Property 2879900210">
-        <source>Translations</source>
-        <target>Translations</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 292972594 - Property 2879900210">
-        <source>Export XLF</source>
-        <target>Export XLF</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 3002780882 - Property 2879900210">
-        <source>Translate (From file, Overwrite)</source>
-        <target>Translate (From file, Overwrite)</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 3535105396 - Property 2879900210">
-        <source>Import XLF (Clear)</source>
-        <target>Import XLF (Clear)</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 3939523444 - Property 2879900210">
-        <source>Import XLF (Merge)</source>
-        <target>Import XLF (Merge)</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 3963959616 - Property 2879900210">
-        <source>Translate (ALL)</source>
-        <target>Translate (ALL)</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Action 908471317 - Property 2879900210">
-        <source>Options</source>
-        <target>Options</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Control 2138801989 - Property 2879900210">
-        <source>Target language</source>
-        <target>Target language</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Control 3270666864 - Property 2879900210">
-        <source>Base file name</source>
-        <target>Base file name</target>
-      </trans-unit>
-      <trans-unit id="Page 50454423 - Property 2879900210">
-        <source>XLF Tools</source>
-        <target>XLF Tools</target>
-      </trans-unit>
-      <trans-unit id="Page 851464241 - Property 2879900210">
-        <source>XLF Translate Options</source>
-        <target>XLF Translate Options</target>
-      </trans-unit>
-      <trans-unit id="Table 1345203401 - Field 1506912832 - Property 2879900210">
-        <source>Lang type</source>
-        <target>Lang type</target>
-      </trans-unit>
-      <trans-unit id="Table 1345203401 - Field 627143216 - Property 2879900210">
-        <source>Lang</source>
-        <target>Lang</target>
-      </trans-unit>
-      <trans-unit id="Table 1345203401 - Property 2879900210">
-        <source>XLF Languages</source>
-        <target>XLF Languages</target>
-      </trans-unit>
-      <trans-unit id="Table 3081588514 - Field 1125457875 - Property 2879900210">
-        <source>Target</source>
-        <target>Target</target>
-      </trans-unit>
-      <trans-unit id="Table 3081588514 - Field 2397723431 - Property 2879900210">
-        <source>Source</source>
-        <target>Source</target>
-      </trans-unit>
-      <trans-unit id="Table 3081588514 - Field 3641927271 - Property 2879900210">
-        <source>ID</source>
-        <target>ID</target>
-      </trans-unit>
-      <trans-unit id="Table 3081588514 - Property 2879900210">
-        <source>XLF Translations</source>
-        <target>XLF Translations</target>
-      </trans-unit>
-      <trans-unit id="Table 851464241 - Field 2883660770 - Property 2879900210">
-        <source>Translation Service</source>
-        <target>Translation Service</target>
-      </trans-unit>
-      <trans-unit id="Table 851464241 - Field 3256426316 - Property 2879900210">
-        <source>Yandex API Key</source>
-        <target>Yandex API Key</target>
-      </trans-unit>
-      <trans-unit id="Table 851464241 - Field 3641927271 - Property 2879900210">
-        <source>ID (Ignored)</source>
-        <target>ID (Ignored)</target>
-      </trans-unit>
-      <trans-unit id="Table 851464241 - Field 3928301090 - Property 2879900210">
-        <source>Azure API Key</source>
-        <target>Azure API Key</target>
-      </trans-unit>
-      <trans-unit id="Table 851464241 - Property 2879900210">
-        <source>XLF Translate Options</source>
-        <target>XLF Translate Options</target>
-      </trans-unit>
+      <group id="body">
+        <trans-unit id="Codeunit 1467306997 - NamedType 2164111355" translate="yes">
+          <source>Cant upload file</source>
+          <target>Cant upload file</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1467306997 - NamedType 3119137330" translate="yes">
+          <source>File name doesnt ends with .g.xlf</source>
+          <target>File name doesnt ends with .g.xlf</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 227533125 - NamedType 1363287824" translate="yes">
+          <source>Error processing GET request! GET: %1</source>
+          <target>Error processing GET request! GET: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 227533125 - NamedType 3630303236" translate="yes">
+          <source>Error: not success HTTP status code: %1, response text: %2, GET: %3</source>
+          <target>Error: not success HTTP status code: %1, response text: %2, GET: %3</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2575481221 - NamedType 2683996630" translate="yes">
+          <source>Error processing POST request! POST: %1</source>
+          <target>Error processing POST request! POST: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2575481221 - NamedType 3630303236" translate="yes">
+          <source>Error: not success HTTP status code: %1, response text: %2, POST: %3</source>
+          <target>Error: not success HTTP status code: %1, response text: %2, POST: %3</target>
+        </trans-unit>
+        <trans-unit id="Enum 2883660770 - EnumValue 1541658731 - Property 2879900210" translate="yes">
+          <source>Azure</source>
+          <target>Azure</target>
+        </trans-unit>
+        <trans-unit id="Enum 2883660770 - EnumValue 2406592985 - Property 2879900210" translate="yes">
+          <source>Debug Translator</source>
+          <target>Debug Translator</target>
+        </trans-unit>
+        <trans-unit id="Enum 2883660770 - EnumValue 3347625057 - Property 2879900210" translate="yes">
+          <source>Yandex</source>
+          <target>Yandex</target>
+        </trans-unit>
+        <trans-unit id="Page 1345203401 - Property 2879900210" translate="yes">
+          <source>XLF Languages</source>
+          <target>XLF Languages</target>
+        </trans-unit>
+        <trans-unit id="Page 3081588514 - Property 2879900210" translate="yes">
+          <source>XLF Translations</source>
+          <target>XLF Translations</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 2102236503 - Property 2879900210" translate="yes">
+          <source>Translate (Untranslated)</source>
+          <target>Translate (Untranslated)</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 2410215357 - Property 2879900210" translate="yes">
+          <source>Translations</source>
+          <target>Translations</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 292972594 - Property 2879900210" translate="yes">
+          <source>Export XLF</source>
+          <target>Export XLF</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3002780882 - Property 2879900210" translate="yes">
+          <source>Translate (From file, Overwrite)</source>
+          <target>Translate (From file, Overwrite)</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3535105396 - Property 2879900210" translate="yes">
+          <source>Import XLF (Clear)</source>
+          <target>Import XLF (Clear)</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3939523444 - Property 2879900210" translate="yes">
+          <source>Import XLF (Merge)</source>
+          <target>Import XLF (Merge)</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 3963959616 - Property 2879900210" translate="yes">
+          <source>Translate (ALL)</source>
+          <target>Translate (ALL)</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Action 908471317 - Property 2879900210" translate="yes">
+          <source>Options</source>
+          <target>Options</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Control 2138801989 - Property 2879900210" translate="yes">
+          <source>Target language</source>
+          <target>Target language</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Control 3270666864 - Property 2879900210" translate="yes">
+          <source>Base file name</source>
+          <target>Base file name</target>
+        </trans-unit>
+        <trans-unit id="Page 50454423 - Property 2879900210" translate="yes">
+          <source>XLF Tools</source>
+          <target>XLF Tools</target>
+        </trans-unit>
+        <trans-unit id="Page 851464241 - Property 2879900210" translate="yes">
+          <source>XLF Translate Options</source>
+          <target>XLF Translate Options</target>
+        </trans-unit>
+        <trans-unit id="Table 1345203401 - Field 1506912832 - Property 2879900210" translate="yes">
+          <source>Lang type</source>
+          <target>Lang type</target>
+        </trans-unit>
+        <trans-unit id="Table 1345203401 - Field 627143216 - Property 2879900210" translate="yes">
+          <source>Lang</source>
+          <target>Lang</target>
+        </trans-unit>
+        <trans-unit id="Table 1345203401 - Property 2879900210" translate="yes">
+          <source>XLF Languages</source>
+          <target>XLF Languages</target>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Field 1125457875 - Property 2879900210" translate="yes">
+          <source>Target</source>
+          <target>Target</target>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Field 2397723431 - Property 2879900210" translate="yes">
+          <source>Source</source>
+          <target>Source</target>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Field 3641927271 - Property 2879900210" translate="yes">
+          <source>ID</source>
+          <target>ID</target>
+        </trans-unit>
+        <trans-unit id="Table 3081588514 - Property 2879900210" translate="yes">
+          <source>XLF Translations</source>
+          <target>XLF Translations</target>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 2883660770 - Property 2879900210" translate="yes">
+          <source>Translation Service</source>
+          <target>Translation Service</target>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 3256426316 - Property 2879900210" translate="yes">
+          <source>Yandex API Key</source>
+          <target>Yandex API Key</target>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 3641927271 - Property 2879900210" translate="yes">
+          <source>ID (Ignored)</source>
+          <target>ID (Ignored)</target>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Field 3928301090 - Property 2879900210" translate="yes">
+          <source>Azure API Key</source>
+          <target>Azure API Key</target>
+        </trans-unit>
+        <trans-unit id="Table 851464241 - Property 2879900210" translate="yes">
+          <source>XLF Translate Options</source>
+          <target>XLF Translate Options</target>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>
