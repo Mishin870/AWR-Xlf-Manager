@@ -1,20 +1,39 @@
 codeunit 70097806 "AWR_XLF_Actions"
 {
+    procedure LoadXmlFromStreamWithoutNamespaces(xlfStream: InStream): XmlDocument;
+    var
+        xmlManager: Codeunit "XML DOM Management";
+
+        root: XmlDocument;
+        rootText: Text;
+        rootLine: Text;
+    begin
+        while not xlfStream.EOS() do begin
+            xlfStream.ReadText(rootLine);
+            rootText += rootLine;
+        end;
+
+        rootText := xmlManager.RemoveNamespaces(rootText);
+        XmlDocument.ReadFrom(rootText, root);
+
+        exit(root);
+    end;
 
     procedure ImportSource(var baseFileName: Text; merge: Boolean)
     var
+        TempBlob: Codeunit "Temp Blob";
         xlfStream: InStream;
         fileName: Text;
-        root: XmlDocument;
     begin
+        TempBlob.CreateInStream(xlfStream, TextEncoding::UTF8);
+
         if UploadIntoStream('Select source XLF file', '', 'XLF (*.xlf)|*.xlf', fileName, xlfStream) then begin
             if not fileName.EndsWith('.g.xlf') then
-                Error(IncorrectSource_Err);
+                Error(IncorrectSourceGeneral_Err);
 
             baseFileName := CopyStr(fileName, 1, StrLen(fileName) - 6);
 
-            XmlDocument.ReadFrom(xlfStream, root);
-            ParseSource(root, merge);
+            ParseSource(LoadXmlFromStreamWithoutNamespaces(xlfStream), merge);
         end else
             Error(CantUpload_Err);
     end;
@@ -26,15 +45,11 @@ codeunit 70097806 "AWR_XLF_Actions"
         transUnits: XmlNodeList;
         transUnit: XmlNode;
         transUnitElement: XmlElement;
-        nsManager: XmlNamespaceManager;
         idAttribute: XmlAttribute;
 
         unitSourceNode: XmlNode;
     begin
-        nsManager.NameTable(root.NameTable());
-        nsManager.AddNamespace('a', 'urn:oasis:names:tc:xliff:document:1.2');
-
-        root.SelectNodes('//a:xliff/a:file/a:body/a:group/a:trans-unit', nsManager, transUnits);
+        root.SelectNodes('//xliff/file/body/group/trans-unit', transUnits);
 
         if not merge then begin
             translation.Reset();
@@ -47,7 +62,7 @@ codeunit 70097806 "AWR_XLF_Actions"
             transUnitElement.Attributes().Get('id', idAttribute);
             translation.ID := CopyStr(idAttribute.Value(), 1, MaxStrLen(translation.ID));
 
-            transUnitElement.SelectSingleNode('a:source', nsManager, unitSourceNode);
+            transUnitElement.SelectSingleNode('source', unitSourceNode);
             translation.Source := CopyStr(unitSourceNode.AsXmlElement().InnerText(), 1, MaxStrLen(translation.Source));
 
             // Ignore result cause its dont matter even merging or not
@@ -59,16 +74,17 @@ codeunit 70097806 "AWR_XLF_Actions"
 
     procedure TranslateFromFile()
     var
+        TempBlob: Codeunit "Temp Blob";
         xlfStream: InStream;
         fileName: Text;
-        root: XmlDocument;
     begin
+        TempBlob.CreateInStream(xlfStream, TextEncoding::UTF8);
+
         if UploadIntoStream('Select translated XLF file', '', 'XLF (*.xlf)|*.xlf', fileName, xlfStream) then begin
-            if not fileName.EndsWith('.g.xlf') then
+            if not fileName.EndsWith('.xlf') then
                 Error(IncorrectSource_Err);
 
-            XmlDocument.ReadFrom(xlfStream, root);
-            TranslateFromFileParse(root);
+            TranslateFromFileParse(LoadXmlFromStreamWithoutNamespaces(xlfStream));
         end else
             Error(CantUpload_Err);
     end;
@@ -84,7 +100,7 @@ codeunit 70097806 "AWR_XLF_Actions"
 
         unitSourceNode: XmlNode;
     begin
-        root.SelectNodes('//xliff/file/body/trans-unit', transUnits);
+        root.SelectNodes('//xliff/file/body/group/trans-unit', transUnits);
 
         foreach transUnit in transUnits do begin
             transUnitElement := transUnit.AsXmlElement();
@@ -249,6 +265,7 @@ codeunit 70097806 "AWR_XLF_Actions"
     end;
 
     var
-        IncorrectSource_Err: Label 'File name doesnt ends with .g.xlf';
+        IncorrectSourceGeneral_Err: Label 'File name doesnt ends with .g.xlf';
+        IncorrectSource_Err: Label 'File name doesnt ends with .xlf';
         CantUpload_Err: Label 'Cant upload file';
 }

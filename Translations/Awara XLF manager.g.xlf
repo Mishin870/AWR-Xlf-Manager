@@ -78,8 +78,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Languages - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1467306997 - NamedType 3119137330" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1467306997 - NamedType 3326210804" size-unit="char" translate="yes" xml:space="preserve">
           <source>File name doesnt ends with .g.xlf</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Actions - NamedType IncorrectSourceGeneral_Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1467306997 - NamedType 3119137330" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File name doesnt ends with .xlf</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AWR_XLF_Actions - NamedType IncorrectSource_Err</note>
         </trans-unit>
