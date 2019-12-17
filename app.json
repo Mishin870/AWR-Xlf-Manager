@@ -2,27 +2,38 @@
   "id": "c7542dad-1e5e-4e47-ae4a-5bf0e07b6ae4",
   "name": "Awara XLF manager",
   "publisher": "Awara IT Solutions LLC",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "version": "15.0.0.0",
+  "brief": "XLF translation tool",
+  "description": "XLF translation tool",
   "privacyStatement": "https://awara-it.com/ru/privacy-policy/",
   "EULA": "https://awara-it.com/license-agreement/",
-  "help": "",
-  "url": "",
+  "help": "http://awara-it.com/en_US/contact-us/",
+  "url": "http://awara-it.com/ru_RU/",
   "logo": "logo.jpg",
+  "contextSensitiveHelpUrl": "https://github.com/Mishin870/AWR-Xlf-Manager/tree/master/Docs",
   "dependencies": [
+    {
+      "appId": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "15.1.0.0"
+    }
   ],
   "screenshots": [],
-  "platform": "14.0.0.0",
-  "application": "14.0.0.0",
   "features": ["TranslationFile"],
+  "platform": "15.0.0.0",
   "idRanges": [
     {
       "from": 70097806,
       "to": 70097811
     }
   ],
-  "contextSensitiveHelpUrl": "https://AwaraXLFmanager.com/help/",
   "showMyCode": true,
-  "runtime": "3.0"
+  "runtime": "4.0"
 }

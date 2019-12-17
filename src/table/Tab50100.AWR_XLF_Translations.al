@@ -2,7 +2,7 @@ table 70097806 "AWR_XLF_Translations"
 {
     DataClassification = ToBeClassified;
     Caption = 'XLF Translations';
-    Scope = Extension;
+    Scope = Cloud;
 
     fields
     {

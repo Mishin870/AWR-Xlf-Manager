@@ -163,7 +163,7 @@ codeunit 70097806 "AWR_XLF_Actions"
         translation: Record AWR_XLF_Translations;
         options: Record AWR_XLF_Translate_Options;
 
-        tempBlob: Record TempBlob temporary;
+        tempBlob: Codeunit "Temp Blob";
         tempBlobInStream: InStream;
         tempBlobOutStream: OutStream;
 
@@ -241,9 +241,9 @@ codeunit 70097806 "AWR_XLF_Actions"
         translatorComment := XmlComment.Create(commentText);
         xmlDoc.Add(translatorComment);
 
-        tempBlob.blob.CreateOutStream(tempBlobOutStream);
+        tempBlob.CreateOutStream(tempBlobOutStream);
         xmlDoc.WriteTo(tempBlobOutStream);
-        tempBlob.blob.CreateInStream(tempBlobInStream);
+        tempBlob.CreateInStream(tempBlobInStream);
 
         DownloadFromStream(tempBlobInStream, 'Export XLF', '', '', fileName);
     end;
