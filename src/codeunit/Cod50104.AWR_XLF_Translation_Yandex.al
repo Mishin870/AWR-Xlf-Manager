@@ -8,6 +8,9 @@ codeunit 70097810 "AWR_XLF_Translation_Yandex"
 
     procedure Translate(parameters: Text; string: Text): Text
     begin
+        if DelChr(string, '<>', ' ') = '' then
+            exit(string);
+
         exit(ParseTranslation(common.DoGET(parameters + common.EncodeUri(string))));
     end;
 

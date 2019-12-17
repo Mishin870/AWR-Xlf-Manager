@@ -48,6 +48,9 @@ codeunit 70097811 "AWR_XLF_Translation_Azure"
 
     procedure Translate(parameters: Text; azureApiKey: Text; string: Text): Text
     begin
+        if DelChr(string, '<>', ' ') = '' then
+            exit(string);
+
         exit(ParseTranslation(DoAPI(parameters, azureApiKey, string)));
     end;
 
