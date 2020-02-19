@@ -2,7 +2,7 @@
   "id": "c7542dad-1e5e-4e47-ae4a-5bf0e07b6ae4",
   "name": "Awara XLF manager",
   "publisher": "Awara IT Solutions LLC",
-  "version": "15.0.0.0",
+  "version": "15.2.0.0",
   "brief": "XLF translation tool",
   "description": "XLF translation tool",
   "privacyStatement": "https://awara-it.com/ru/privacy-policy/",
@@ -22,7 +22,7 @@
       "appId": "437dbf0e-84ff-417a-965d-ed2bb9650972",
       "publisher": "Microsoft",
       "name": "Base Application",
-      "version": "15.1.0.0"
+      "version": "15.2.0.0"
     }
   ],
   "screenshots": [],
