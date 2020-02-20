@@ -11,7 +11,7 @@ table 70097807 "AWR_XLF_Translate_Options"
             Caption = 'ID (Ignored)';
             DataClassification = CustomerContent;
         }
-        field(2; "Translation Service"; Enum "Translation Service")
+        field(2; "Translation Service"; Enum "AWR_XLF_Translation Service")
         {
             Caption = 'Translation Service';
             DataClassification = CustomerContent;

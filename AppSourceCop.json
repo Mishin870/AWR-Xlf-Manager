@@ -1,0 +1,7 @@
+{
+	"mandatoryPrefix": "AWR_XLF_",
+	"supportedCountries": [
+		"AU", "AT", "BE", "CA", "CZ", "DK", "DE", "FI", "FR", "IS", "IT",
+		"MX", "NL", "NZ", "NO", "RU", "ES", "SE", "CH", "GB", "US"
+	]
+}

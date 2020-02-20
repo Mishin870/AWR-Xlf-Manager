@@ -1,4 +1,4 @@
-enum 70097806 "Translation Service"
+enum 70097806 "AWR_XLF_Translation Service"
 {
     Extensible = true;
 

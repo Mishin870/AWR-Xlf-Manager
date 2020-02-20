@@ -130,7 +130,7 @@ codeunit 70097806 "AWR_XLF_Actions"
         azure: Codeunit AWR_XLF_Translation_Azure;
 
         parameters: Text;
-        service: Enum "Translation Service";
+        service: Enum "AWR_XLF_Translation Service";
     begin
         language.Get(languageID);
 
@@ -197,7 +197,7 @@ codeunit 70097806 "AWR_XLF_Actions"
         nameSpace: Text;
 
         commentText: Text;
-        service: Enum "Translation Service";
+        service: Enum "AWR_XLF_Translation Service";
     begin
         options.Get();
         service := options."Translation Service";
