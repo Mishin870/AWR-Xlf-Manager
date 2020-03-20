@@ -168,20 +168,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AWR_XLF_Tools - Action TranslationsPage - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2883660770 - EnumValue 2406592985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 4182886092 - EnumValue 2406592985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debug Translator</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Translation Service - EnumValue Debug Translator - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AWR_XLF_Translation Service - EnumValue Debug Translator - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2883660770 - EnumValue 3347625057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 4182886092 - EnumValue 3347625057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Yandex</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Translation Service - EnumValue Yandex - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AWR_XLF_Translation Service - EnumValue Yandex - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2883660770 - EnumValue 1541658731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 4182886092 - EnumValue 1541658731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Azure</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Translation Service - EnumValue Azure - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AWR_XLF_Translation Service - EnumValue Azure - Property Caption</note>
         </trans-unit>
       </group>
     </body>
