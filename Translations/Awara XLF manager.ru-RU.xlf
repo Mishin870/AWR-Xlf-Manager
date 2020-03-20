@@ -65,7 +65,7 @@
         </trans-unit>
         <trans-unit id="Page 50454423 - Action 3535105396 - Property 2879900210" translate="yes">
           <source>Import XLF (Clear)</source>
-          <target>Импорт XLF-файле (прозрачный)</target>
+          <target>Импорт XLF-файле (с нуля)</target>
         </trans-unit>
         <trans-unit id="Page 50454423 - Action 3939523444 - Property 2879900210" translate="yes">
           <source>Import XLF (Merge)</source>
